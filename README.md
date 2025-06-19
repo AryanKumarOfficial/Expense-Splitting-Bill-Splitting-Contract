@@ -44,7 +44,3 @@ The vision is to provide a transparent, on-chain mechanism for small groups (fri
 - **Integration with Stablecoins or DEX**: Automatically convert between tokens when settling, ensuring stable-value transfers.
 - **Testing & Auditing**: Write thorough unit tests (Hardhat/Foundry) covering both single- and multi-participant flows. Use property-based tests to verify balance invariants (sum of net balances remains zero after operations).
 - **Frontend & UX**: Ensure the UI clearly indicates trivial behavior when only one participant is deployed, and guides users through multi-participant operations (e.g., prompting for allowances for ERC20).
-
----
-
-With this README, anyone reviewing the repository will understand that the contract now supports single-address deployment for convenience, while retaining full functionality for actual expense splitting when multiple participants are supplied. Feel free to adjust wording or add examples/snippets to suit your documentation style.
