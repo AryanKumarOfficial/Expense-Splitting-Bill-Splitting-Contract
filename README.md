@@ -1,4 +1,6 @@
 # Expense Splitting / Bill-Splitting Contract
+  
+---
 
 ## Project Title
 
